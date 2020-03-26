@@ -29,6 +29,7 @@ def using_concat(a, b)
 end
 
 def using_insert(array, element)
-  puts array.insert(element[4])
+  insert = array.insert(element[4])
+  insert
 end
 
