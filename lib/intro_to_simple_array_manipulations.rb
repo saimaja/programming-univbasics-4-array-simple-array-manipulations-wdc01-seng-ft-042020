@@ -30,6 +30,6 @@ end
 
 def using_insert(array, element)
   insert = array.insert(element)
-  insert
+  insert[3] = element
 end
 
