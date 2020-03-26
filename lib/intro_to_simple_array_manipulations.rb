@@ -24,10 +24,10 @@ def shift_with_args(array)
 end
 
 def using_concat(arrayone, arraytwo)
-  return array.concat(arraytwo)
+  array.concat(arraytwo)
 end
 
 def using_insert(array, element)
-  return array.insert(element(3))
+  array.insert(element[4])
 end
 
